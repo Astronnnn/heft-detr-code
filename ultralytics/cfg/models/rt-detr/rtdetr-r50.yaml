@@ -2,7 +2,6 @@ nc: 80
 scales: 
   l: [1.00, 1.00, 1024]
 
-# From BiliBili 魔鬼面具
 backbone:
   # [from, repeats, module, args]
   - [-1, 1, ConvNormLayer, [32, 3, 2, None, False, 'relu']] # 0-P1/2
